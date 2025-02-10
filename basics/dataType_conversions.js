@@ -30,11 +30,31 @@ Eg:-
 empty string => false
 "ojus" => true 
 
-
-
-
-
 */
 
 
+/*
+Operations
 
+console.log("1"+2)  // ans:- 12
+console.log(1+"2")  // ans:- 12
+console.log("1"+2+2) // ans:- 122
+console.log(1+2+"2")  // ans:- 32
+
+*/
+
+// console.log(1+2+"2"+1+2+"1")  ans:- 32121
+
+// console.log(true); ans:- true
+
+//console.log(+true) ans:-1  (the value of bool is converted to number for addition) (4+true) => 5
+
+//Increment Decrement postfix prefix operator
+
+let x=3
+let y=x++
+console.log(`x: ${x} y: ${y}`); // x=4 y=3
+
+let a=3;
+let b=++a;
+console.log(`a: ${a} b: ${b}`); // a=4 b=4
